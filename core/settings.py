@@ -69,10 +69,35 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': 'db.sqlite3',
+#     }
+# }
+# **** Local pipe to Cloud Database Settings ****
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'django-adminlte-db-01',
+#         'USER': 'sizingadmin',
+#         'PASSWORD': 'Malware12345',
+#         'HOST': '127.0.0.1',
+#         'PORT': '23180',
+#     }
+# }
+
+# **** Cloud Database Settings ****
+#
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django-adminlte-db-01',
+        'USER': 'sizingadmin',
+        'PASSWORD': 'Malware12345',
+        'HOST': '10.128.4.158',
+        # 'HOST': 'mysql.lsmiley-dev.svc.cluster.local',
+        'PORT': '3306',
     }
 }
 
