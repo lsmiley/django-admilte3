@@ -24,7 +24,7 @@ urlpatterns = [
     # path('order_mgr/', include('order_mgr.urls')),
 
     path('product/', include('product.urls')),
-    path('category', include('category.urls')),
+    path('category/category.html', include('category.urls')),
 
 
 ]
