@@ -18,13 +18,13 @@ urlpatterns = [
     # path('labordelivery/', include('labordelivery.urls')),
     # path('tntworksheet/', include('tntworksheet.urls')),
     # path('statusstate/', include('statusstate.urls')),
-    path('prodvendor/', include('prodvendor.urls')),
+    path('prodvendor/prodvendor.html', include('prodvendor.urls')),
     # path('orderitem/', include('orderitem.urls')),
     # path('orderitem_mgr/', include('orderitem_mgr.urls')),
     # path('order_mgr/', include('order_mgr.urls')),
 
     path('product/', include('product.urls')),
-    path('category.html', include('category.urls')),
+    path('category/category.html', include('category.urls')),
 
 
 ]
