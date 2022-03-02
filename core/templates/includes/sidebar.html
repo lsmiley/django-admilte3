@@ -2,8 +2,10 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="/" class="brand-link">
-      <img src="/static/assets/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">AdminLTE 3</span>
+<!--      <img src="/static/assets/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">-->
+<!--      <img src="/static/assets/img/ibm_purple_logo.png" alt="MSS ESS" style="opacity: .5">-->
+      <img src="/static/assets/img/2019ibmSec_facebookProfile_180x180-0000.png" alt="MSS ESS" style="opacity: .5">
+      <span class="brand-text font-weight-light">Sizing Tool</span>
     </a>
 
     <!-- Sidebar -->
@@ -41,7 +43,7 @@
             <a href="#" class="nav-link {% if 'index' in segment %} active {% endif %}">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
-                Dashboard
+                Dashboards
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
@@ -49,21 +51,34 @@
               <li class="nav-item">
                 <a href="/index.html" class="nav-link {% if 'index.html' in segment %} active {% endif %}">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v1</p>
+                  <p>Global Dashboard</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/index2.html" class="nav-link {% if 'index2.html' in segment %} active {% endif %}">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v2</p>
+                  <p>Team Dashboard</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="/index3.html" class="nav-link {% if 'index3.html' in segment %} active {% endif %}">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v3</p>
+                  <p>My Dashboard</p>
                 </a>
               </li>
+              <li class="nav-item">
+                  <a href="/prodvendor.html" class="nav-link {% if 'prodvendor.html' in segment %} active {% endif %}">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Vendors</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{% url 'prodvendor' %}" class="nav-link active">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Vendors</p>
+                </a>
+              </li>
+
             </ul>
           </li>
           <li class="nav-item">
