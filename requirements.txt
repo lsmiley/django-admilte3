@@ -15,7 +15,6 @@ django-filter==21.1
 django-tables2==2.4.1
 django-crispy-forms==1.13.0
 django-ckeditor==6.2.0
-dj-database-url
 django-import-export
 djangorestframework==3.13.1
 Markdown==3.3.6
