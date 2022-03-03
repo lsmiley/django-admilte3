@@ -111,7 +111,8 @@ DATABASES = {
         'NAME': 'django-adminlte-db-01',
         'USER': 'sizingadmin',
         'PASSWORD': 'Malware12345',
-        'HOST': '10.128.4.158',
+        'HOST': '172.30.21.135',
+        # 'HOST':  'essapps10-lsmiley-stage.apps.sandbox-m2.ll9k.p1.openshiftapps.com',
         # 'HOST': 'mysql.lsmiley-dev.svc.cluster.local',
         'PORT': '3306',
     }
